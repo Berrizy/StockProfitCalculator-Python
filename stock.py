@@ -13,7 +13,7 @@ def get_int(prompt):
             print("Please enter a valid whole number.")
 
 def main():
-    print("📈 Welcome to the Stock Profit Calculator!\n")
+    print("Welcome to the Stock Profit Calculator!\n")
     
     total_cost = 0
     total_value = 0
@@ -44,11 +44,11 @@ def main():
     print(f"Net Profit/Loss: ${net_profit:.2f}")
 
     if net_profit > 0:
-        print("📊 Great job! You're making a profit.")
+        print("Great job! You're making a profit.")
     elif net_profit < 0:
-        print("📉 You're currently at a loss. Stay informed and be patient!")
+        print("You're currently at a loss. Stay informed and be patient!")
     else:
-        print("⚖️ You're breaking even.")
+        print("You're breaking even.")
 
 if __name__ == "__main__":
     main()
